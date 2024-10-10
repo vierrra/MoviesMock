@@ -21,7 +21,7 @@ class MovieScreen: UIView {
     
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: 180, height: 300)
+        layout.itemSize = CGSize(width: 180, height: 500)
         layout.minimumInteritemSpacing = 5
         layout.minimumLineSpacing = 10
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)

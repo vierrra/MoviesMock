@@ -52,4 +52,10 @@ extension MovieViewController: UICollectionViewDelegateFlowLayout, UICollectionV
         
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let id = movies[indexPath.row].id
+        
+        print("Id clicado foi: \(id)")
+    }
 }
